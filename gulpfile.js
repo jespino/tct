@@ -3,6 +3,12 @@ var uglify = require('gulp-uglify');
 var coffee = require('gulp-coffee');
 var coffeelint = require('gulp-coffeelint');
 var concat = require('gulp-concat');
+var mocha = require('gulp-mocha');
+
+gulp.task('test', function () {
+  return gulp.src(['tests/*.js'])
+    .pipe(mocha());
+});
 
 gulp.task('dist', function() {
   return gulp.src(['src/*.coffee'])
