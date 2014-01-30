@@ -1,0 +1,28 @@
+{
+  "name": "textareaCompletionTooltip",
+  "version": "0.0.0",
+  "description": "Textarea completion tooltip library",
+  "main": "tct.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "bower": "~1.2.8",
+    "gulp-uglify": "~0.2.0",
+    "gulp-coffee": "~1.4.0",
+    "gulp-coffeelint": "~0.2.0",
+    "gulp-concat": "~2.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "textarea",
+    "completion",
+    "tooltip"
+  ],
+  "author": "Jesús Espino <jesus.espino@kaleidos.net>",
+  "license": "MIT"
+}
